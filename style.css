@@ -48,6 +48,18 @@ input {
   width: 100%;
 }
 
+.quizstatus {
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 10px;
+}
+
+@media all and (min-width: 800px){
+  .quizstatus {
+    font-size: 15px;
+  }
+}
+
 h1 {
   text-align: center;
 }
