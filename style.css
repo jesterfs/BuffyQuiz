@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+}
+
+button  {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+input {
+  margin-top: 5px;
+}
+
+.submitbtn {
+  margin-top: 15px;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+  
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+.group img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.formanswers {
+  text-align: left;
+}
+
+.quizbody {
+  
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media all and (min-width: 800px){
+  .quizbody {
+    margin: 15px auto 50px auto;
+    border: 1px solid gray;
+    width: 100%;
+  }
+}
+
+.inbetweenimg {
+  width:
+}
+
+.inbetweentext {
+  text-align: center;
+}
+
+@media all and (min-width: 800px) {
+  .inbetweentext {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+  }
+}
